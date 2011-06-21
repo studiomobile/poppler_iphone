@@ -32,3 +32,6 @@ poppler-qt-uninstalled.pc
 poppler-qt4-uninstalled.pc
 poppler-splash-uninstalled.pc
 poppler-uninstalled.pc
+
+DerivedData
+xcuserdata
