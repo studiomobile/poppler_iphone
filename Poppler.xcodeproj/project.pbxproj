@@ -79,6 +79,16 @@
 		B456643613B0768500D9B937 /* ViewerPreferences.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4BF8B6513AF9EE4005E8A10 /* ViewerPreferences.cc */; };
 		B456643813B0768500D9B937 /* XpdfPluginAPI.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4BF8B6713AF9EE4005E8A10 /* XpdfPluginAPI.cc */; };
 		B456643A13B0768500D9B937 /* XRef.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4BF8B6913AF9EE4005E8A10 /* XRef.cc */; };
+		B4B7C02913B344BA00CC4E29 /* FoFiBase.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C01C13B344BA00CC4E29 /* FoFiBase.cc */; };
+		B4B7C02A13B344BA00CC4E29 /* FoFiBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C01D13B344BA00CC4E29 /* FoFiBase.h */; };
+		B4B7C02B13B344BA00CC4E29 /* FoFiEncodings.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C01E13B344BA00CC4E29 /* FoFiEncodings.cc */; };
+		B4B7C02C13B344BA00CC4E29 /* FoFiEncodings.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C01F13B344BA00CC4E29 /* FoFiEncodings.h */; };
+		B4B7C02D13B344BA00CC4E29 /* FoFiTrueType.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C02013B344BA00CC4E29 /* FoFiTrueType.cc */; };
+		B4B7C02E13B344BA00CC4E29 /* FoFiTrueType.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C02113B344BA00CC4E29 /* FoFiTrueType.h */; };
+		B4B7C02F13B344BA00CC4E29 /* FoFiType1.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C02213B344BA00CC4E29 /* FoFiType1.cc */; };
+		B4B7C03013B344BA00CC4E29 /* FoFiType1.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C02313B344BA00CC4E29 /* FoFiType1.h */; };
+		B4B7C03113B344BA00CC4E29 /* FoFiType1C.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C02413B344BA00CC4E29 /* FoFiType1C.cc */; };
+		B4B7C03213B344BA00CC4E29 /* FoFiType1C.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C02513B344BA00CC4E29 /* FoFiType1C.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +123,16 @@
 		B456638B13B0727500D9B937 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = SOURCE_ROOT; };
 		B456639113B0761500D9B937 /* libPoppler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPoppler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A974CE13AF98E20030DB2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4B7C01C13B344BA00CC4E29 /* FoFiBase.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiBase.cc; sourceTree = "<group>"; };
+		B4B7C01D13B344BA00CC4E29 /* FoFiBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiBase.h; sourceTree = "<group>"; };
+		B4B7C01E13B344BA00CC4E29 /* FoFiEncodings.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiEncodings.cc; sourceTree = "<group>"; };
+		B4B7C01F13B344BA00CC4E29 /* FoFiEncodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiEncodings.h; sourceTree = "<group>"; };
+		B4B7C02013B344BA00CC4E29 /* FoFiTrueType.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiTrueType.cc; sourceTree = "<group>"; };
+		B4B7C02113B344BA00CC4E29 /* FoFiTrueType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiTrueType.h; sourceTree = "<group>"; };
+		B4B7C02213B344BA00CC4E29 /* FoFiType1.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiType1.cc; sourceTree = "<group>"; };
+		B4B7C02313B344BA00CC4E29 /* FoFiType1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiType1.h; sourceTree = "<group>"; };
+		B4B7C02413B344BA00CC4E29 /* FoFiType1C.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiType1C.cc; sourceTree = "<group>"; };
+		B4B7C02513B344BA00CC4E29 /* FoFiType1C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiType1C.h; sourceTree = "<group>"; };
 		B4BF8ACB13AF9EE4005E8A10 /* Annot.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Annot.cc; sourceTree = "<group>"; };
 		B4BF8ACC13AF9EE4005E8A10 /* Annot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annot.h; sourceTree = "<group>"; };
 		B4BF8ACD13AF9EE4005E8A10 /* Array.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cc; sourceTree = "<group>"; };
@@ -320,12 +340,30 @@
 			children = (
 				B456638B13B0727500D9B937 /* config.h */,
 				B4BF8B3C13AF9EE4005E8A10 /* poppler-config.h */,
+				B4B7C01413B344BA00CC4E29 /* fofi */,
 				B456632413AF9FDC00D9B937 /* goo */,
 				B4BF8A8213AF9EE4005E8A10 /* poppler */,
 			);
 			name = Source;
 			path = Poppler;
 			sourceTree = "<group>";
+		};
+		B4B7C01413B344BA00CC4E29 /* fofi */ = {
+			isa = PBXGroup;
+			children = (
+				B4B7C01C13B344BA00CC4E29 /* FoFiBase.cc */,
+				B4B7C01D13B344BA00CC4E29 /* FoFiBase.h */,
+				B4B7C01E13B344BA00CC4E29 /* FoFiEncodings.cc */,
+				B4B7C01F13B344BA00CC4E29 /* FoFiEncodings.h */,
+				B4B7C02013B344BA00CC4E29 /* FoFiTrueType.cc */,
+				B4B7C02113B344BA00CC4E29 /* FoFiTrueType.h */,
+				B4B7C02213B344BA00CC4E29 /* FoFiType1.cc */,
+				B4B7C02313B344BA00CC4E29 /* FoFiType1.h */,
+				B4B7C02413B344BA00CC4E29 /* FoFiType1C.cc */,
+				B4B7C02513B344BA00CC4E29 /* FoFiType1C.h */,
+			);
+			path = fofi;
+			sourceTree = SOURCE_ROOT;
 		};
 		B4BF8A8213AF9EE4005E8A10 /* poppler */ = {
 			isa = PBXGroup;
@@ -468,6 +506,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B7C02A13B344BA00CC4E29 /* FoFiBase.h in Headers */,
+				B4B7C02C13B344BA00CC4E29 /* FoFiEncodings.h in Headers */,
+				B4B7C02E13B344BA00CC4E29 /* FoFiTrueType.h in Headers */,
+				B4B7C03013B344BA00CC4E29 /* FoFiType1.h in Headers */,
+				B4B7C03213B344BA00CC4E29 /* FoFiType1C.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +632,11 @@
 				B456643613B0768500D9B937 /* ViewerPreferences.cc in Sources */,
 				B456643813B0768500D9B937 /* XpdfPluginAPI.cc in Sources */,
 				B456643A13B0768500D9B937 /* XRef.cc in Sources */,
+				B4B7C02913B344BA00CC4E29 /* FoFiBase.cc in Sources */,
+				B4B7C02B13B344BA00CC4E29 /* FoFiEncodings.cc in Sources */,
+				B4B7C02D13B344BA00CC4E29 /* FoFiTrueType.cc in Sources */,
+				B4B7C02F13B344BA00CC4E29 /* FoFiType1.cc in Sources */,
+				B4B7C03113B344BA00CC4E29 /* FoFiType1C.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +649,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/libPoppler.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../DerivedData/PDFViewer/Build/Products/Debug-iphonesimulator\"",
+				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-Wno-write-strings",
@@ -615,6 +667,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/libPoppler.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../DerivedData/PDFViewer/Build/Products/Debug-iphonesimulator\"",
+				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-Wno-write-strings",
