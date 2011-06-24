@@ -282,6 +282,9 @@ public:
 
   // Returns true if the last char of the line is a hyphen.
   GBool isHyphenated() { return hyphenated; }
+    
+  void getBBox(double *xMinA, double *yMinA, double *xMaxA, double *yMaxA)
+    { *xMinA = xMin; *yMinA = yMin; *xMaxA = xMax; *yMaxA = yMax; }
 
 private:
 
@@ -425,6 +428,9 @@ public:
 
   // Get the next TextFlow on the linked list.
   TextFlow *getNext() { return next; }
+
+  void getBBox(double *xMinA, double *yMinA, double *xMaxA, double *yMaxA)
+    { *xMinA = xMin; *yMinA = yMin; *xMaxA = xMax; *yMaxA = yMax; }
 
 private:
 
