@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B456639213B0761500D9B937 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A974CE13AF98E20030DB2A /* Foundation.framework */; };
 		B456639A13B0768100D9B937 /* FixedPoint.cc in Sources */ = {isa = PBXBuildFile; fileRef = B456633413AF9FDC00D9B937 /* FixedPoint.cc */; };
 		B456639C13B0768100D9B937 /* gfile.cc in Sources */ = {isa = PBXBuildFile; fileRef = B456633613AF9FDC00D9B937 /* gfile.cc */; };
 		B456639E13B0768100D9B937 /* gmem.cc in Sources */ = {isa = PBXBuildFile; fileRef = B456633813AF9FDC00D9B937 /* gmem.cc */; };
@@ -80,15 +79,10 @@
 		B456643813B0768500D9B937 /* XpdfPluginAPI.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4BF8B6713AF9EE4005E8A10 /* XpdfPluginAPI.cc */; };
 		B456643A13B0768500D9B937 /* XRef.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4BF8B6913AF9EE4005E8A10 /* XRef.cc */; };
 		B4B7C02913B344BA00CC4E29 /* FoFiBase.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C01C13B344BA00CC4E29 /* FoFiBase.cc */; };
-		B4B7C02A13B344BA00CC4E29 /* FoFiBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C01D13B344BA00CC4E29 /* FoFiBase.h */; };
 		B4B7C02B13B344BA00CC4E29 /* FoFiEncodings.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C01E13B344BA00CC4E29 /* FoFiEncodings.cc */; };
-		B4B7C02C13B344BA00CC4E29 /* FoFiEncodings.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C01F13B344BA00CC4E29 /* FoFiEncodings.h */; };
 		B4B7C02D13B344BA00CC4E29 /* FoFiTrueType.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C02013B344BA00CC4E29 /* FoFiTrueType.cc */; };
-		B4B7C02E13B344BA00CC4E29 /* FoFiTrueType.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C02113B344BA00CC4E29 /* FoFiTrueType.h */; };
 		B4B7C02F13B344BA00CC4E29 /* FoFiType1.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C02213B344BA00CC4E29 /* FoFiType1.cc */; };
-		B4B7C03013B344BA00CC4E29 /* FoFiType1.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C02313B344BA00CC4E29 /* FoFiType1.h */; };
 		B4B7C03113B344BA00CC4E29 /* FoFiType1C.cc in Sources */ = {isa = PBXBuildFile; fileRef = B4B7C02413B344BA00CC4E29 /* FoFiType1C.cc */; };
-		B4B7C03213B344BA00CC4E29 /* FoFiType1C.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B7C02513B344BA00CC4E29 /* FoFiType1C.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,7 +116,6 @@
 		B456635213AF9FDC00D9B937 /* TiffWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiffWriter.h; sourceTree = "<group>"; };
 		B456638B13B0727500D9B937 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = SOURCE_ROOT; };
 		B456639113B0761500D9B937 /* libPoppler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPoppler.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4A974CE13AF98E20030DB2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4B7C01C13B344BA00CC4E29 /* FoFiBase.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiBase.cc; sourceTree = "<group>"; };
 		B4B7C01D13B344BA00CC4E29 /* FoFiBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoFiBase.h; sourceTree = "<group>"; };
 		B4B7C01E13B344BA00CC4E29 /* FoFiEncodings.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoFiEncodings.cc; sourceTree = "<group>"; };
@@ -268,7 +261,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B456639213B0761500D9B937 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +306,6 @@
 			isa = PBXGroup;
 			children = (
 				B4A974D213AF98E20030DB2A /* Source */,
-				B4A974CD13AF98E20030DB2A /* Frameworks */,
 				B4A974CC13AF98E20030DB2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -325,14 +316,6 @@
 				B456639113B0761500D9B937 /* libPoppler.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B4A974CD13AF98E20030DB2A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B4A974CE13AF98E20030DB2A /* Foundation.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B4A974D213AF98E20030DB2A /* Source */ = {
@@ -506,11 +489,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B7C02A13B344BA00CC4E29 /* FoFiBase.h in Headers */,
-				B4B7C02C13B344BA00CC4E29 /* FoFiEncodings.h in Headers */,
-				B4B7C02E13B344BA00CC4E29 /* FoFiTrueType.h in Headers */,
-				B4B7C03013B344BA00CC4E29 /* FoFiType1.h in Headers */,
-				B4B7C03213B344BA00CC4E29 /* FoFiType1C.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +640,7 @@
 					"-Wno-write-strings",
 				);
 				PRODUCT_NAME = Poppler;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -684,6 +663,7 @@
 					"-Wno-write-strings",
 				);
 				PRODUCT_NAME = Poppler;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
